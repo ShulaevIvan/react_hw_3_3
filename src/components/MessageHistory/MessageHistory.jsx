@@ -24,9 +24,9 @@ const MessageHistory = (props) => {
                                 </div>
                                 <div>...</div>
                             </li>
-                        )
-                      
+                        );
                     }
+                    
                     return (
                         <li key={msg.id}>
                             <div className="message-data">
